@@ -1,0 +1,10 @@
+#table
+div#divTable
+ table.table.table-hover
+    thead.thead-inverse
+        tr
+            th=title2
+    tbody
+        each tarea, index in tareas
+            tr
+                td=(index+1)+': '+tarea

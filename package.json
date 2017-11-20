@@ -1,0 +1,39 @@
+{
+  "name": "formularioregitratareas",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "@types/bootstrap": "^3.3.36",
+    "@types/jsdom": "^11.0.4",
+    "@types/mongodb": "^2.2.15",
+    "@types/mongoose": "^4.7.27",
+    "body-parser": "~1.18.2",
+    "bootstrap": "^3.3.7",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.15.5",
+    "jQuery": "^1.7.4",
+    "jsdom": "^11.3.0",
+    "mongodb": "^2.2.33",
+    "mongoose": "^4.13.2",
+    "mongose": "0.0.2-security",
+    "morgan": "~1.9.0",
+    "pug": "2.0.0-beta11",
+    "serve-favicon": "~2.4.5"
+  },
+  "description": "Formulario Para el registro de tareas",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarvinJesus/formularioRegitraTareas.git"
+  },
+  "author": "Marvin Calvo Acuña",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarvinJesus/formularioRegitraTareas/issues"
+  },
+  "homepage": "https://github.com/MarvinJesus/formularioRegitraTareas#readme"
+}

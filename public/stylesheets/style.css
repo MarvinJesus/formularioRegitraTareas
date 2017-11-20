@@ -1,0 +1,69 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+::-webkit-scrollbar { 
+  width: 10px;
+  height: 0;
+  background: rgba(181, 180, 182, 0.096);
+  font-size: 20px;
+}
+h1{
+  text-align: center;
+  margin: 20;
+}
+footer{
+  margin: 0 auto;
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  bottom: -20px;
+  background:rgb(59, 13, 224); 
+  text-align: center;
+  font-size:25px;
+  color: rgb(54, 235, 18)
+}
+header{
+  margin: 0 auto;
+  height: 50px;
+  background:rgb(59, 13, 224); 
+  color: rgb(54, 235, 18);
+  margin-bottom: 30px;;
+}
+
+/* Estilos de la tabla */
+#divTable{
+  overflow-y: hidden;
+  overflow: scroll;
+  height: 610px;
+  margin-top: 50px;
+  margin-bottom: 200px;
+  width: 100%;
+ }
+ thead{
+   position: absolute;
+   height: 40px;
+   width: 100%;
+   bottom: 95%;
+   text-align: center;
+ }
+
+ table>thead>tr>th{
+  height: 40px;
+  width: 100%;
+ }
+/* Estilos del formulario */
+#inputText{
+  margin-bottom: 20px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  margin-bottom: 20px;
+  margin:15px 35px 45px;
+  border:1px solid rgba(0,0,0,.1);
+  width: 90%;
+} 
+span{
+  font-family: Times;
+  font-style: block;
+  font-size: 25px;
+  margin-top: 20px;
+}

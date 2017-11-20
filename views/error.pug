@@ -1,0 +1,9 @@
+extends layout
+
+block content
+ div.alert.alert-danger.col-lg-12.col-md-12
+    h1= message
+    h2= error.status
+    pre #{error.stack}
+ 
+ 
